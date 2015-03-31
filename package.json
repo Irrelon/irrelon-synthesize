@@ -1,0 +1,40 @@
+{
+	"author": "Rob Evans - Irrelon Software Limited",
+	"name": "irrelon-synthesize",
+	"description": "A simple method synthesizer for JavaScript modules.",
+	"version": "1.0.0",
+	"keywords": [
+		"javascript",
+		"browser",
+		"node",
+		"client-side",
+		"server-side",
+		"method",
+		"getter",
+		"setter",
+		"generate",
+		"autogenerate",
+		"functions"
+	],
+	"dependencies": {
+
+	},
+	"engines": {
+		"node": "*"
+	},
+	"scripts": {
+
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/irrelon/irrelon-synthesize.git"
+	},
+	"devDependencies": {
+
+	},
+	"main": "./index",
+	"browserify": "./index",
+	"bugs": {
+		"url": "http://github.com/irrelon/irrelon-synthesize/issues"
+	}
+}
