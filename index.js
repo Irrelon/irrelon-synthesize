@@ -1,3 +1,5 @@
+var _synth = {};
+
 /**
  * Generates a generic getter/setter method for the passed method name.
  * @param {Object} obj The object to add the getter/setter to.
@@ -7,7 +9,7 @@
  * $super e.g. this.$super();
  */
 var synthesize = function (obj, name, extend) {
-	this._synth[name] = this._synth[name] || function (val) {
+	_synth[name] = _synth[name] || function (val) {
 		if (val !== undefined) {
 			this['_' + name] = val;
 			return this;
@@ -30,7 +32,7 @@ var synthesize = function (obj, name, extend) {
 			return ret;
 		};
 	} else {
-		obj[name] = this._synth[name];
+		obj[name] = _synth[name];
 	}
 };
 
