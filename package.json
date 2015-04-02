@@ -2,7 +2,7 @@
 	"author": "Rob Evans - Irrelon Software Limited",
 	"name": "irrelon-synthesize",
 	"description": "A simple method synthesizer for JavaScript modules.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"keywords": [
 		"javascript",
 		"browser",
