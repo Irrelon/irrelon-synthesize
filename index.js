@@ -25,7 +25,7 @@ var synthesize = function (obj, name, extend) {
 			var tmp = this.$super,
 				ret;
 
-			this.$super = self._synth[name];
+			this.$super = _synth[name];
 			ret = extend.apply(this, arguments);
 			this.$super = tmp;
 
